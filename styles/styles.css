@@ -186,4 +186,88 @@ body {
   color: #ffffff;
   line-height: 20px;
 }
+
+.faq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 150px;
+}
+
+.faq .main {
+  width: 1168px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.faq .main .left .title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 0 0 16px;
+}
+
+.faq .main .left .lead {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.faq .main .right .content {
+  margin-bottom: 16px;
+}
+
+.faq .main .right .content .collapsibleClose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 668px;
+  height: 56px;
+  padding: 18px 25px 18px 24px;
+  border: 1px solid #D4D4D4;
+  border-radius: 4px;
+}
+
+.faq .main .right .content .collapsibleClose:hover {
+  cursor: pointer;
+}
+
+.faq .main .right .content .collapsibleClose p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.faq .main .right .content .collapsibleClose img {
+  height: 24px;
+  width: 24px;
+}
+
+.faq .main .right .content .collapsibleOpen {
+  width: 668px;
+  padding: 18px 25px 18px 24px;
+  border: 1px solid #D4D4D4;
+  border-radius: 4px;
+  display: none;
+  overflow: hidden;
+}
+
+.faq .main .right .content .collapsibleOpen p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
 /*# sourceMappingURL=styles.css.map */

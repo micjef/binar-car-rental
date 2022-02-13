@@ -44,5 +44,79 @@
       <button>Mulai Sewa Mobil</button>
     </div>
   </div>
+
+  <!--faq-->
+  <div class="faq">
+    <div class="main">
+      <div class="left">
+        <p class="title">Frequently Asked Question</p>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      </div>
+      <div class="right">
+        <div class="content">
+          <div class="collapsibleClose">
+            <p>Apa saja syarat yang dibutuhkan?</p>
+            <img src="./icon/fi_chevron-down.svg" alt="icon">
+          </div>
+          <div class="collapsibleOpen">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quam cumque quia aliquid fugiat deleniti officia nisi perspiciatis nemo corporis impedit, voluptas voluptatibus minima aperiam quos? Quaerat iure quos deserunt.</p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="collapsibleClose">
+            <p>Berapa hari minimal sewa mobil lepas kunci?</p>
+            <img src="./icon/fi_chevron-down.svg" alt="icon">
+          </div>
+          <div class="collapsibleOpen">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quam cumque quia aliquid fugiat deleniti officia nisi perspiciatis nemo corporis impedit, voluptas voluptatibus minima aperiam quos? Quaerat iure quos deserunt.</p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="collapsibleClose">
+            <p>Berapa hari sebelumnya sabaiknya booking sewa mobil?</p>
+            <img src="./icon/fi_chevron-down.svg" alt="icon">
+          </div>
+          <div class="collapsibleOpen">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quam cumque quia aliquid fugiat deleniti officia nisi perspiciatis nemo corporis impedit, voluptas voluptatibus minima aperiam quos? Quaerat iure quos deserunt.</p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="collapsibleClose">
+            <p>Apakah Ada biaya antar-jemput?</p>
+            <img src="./icon/fi_chevron-down.svg" alt="icon">
+          </div>
+          <div class="collapsibleOpen">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quam cumque quia aliquid fugiat deleniti officia nisi perspiciatis nemo corporis impedit, voluptas voluptatibus minima aperiam quos? Quaerat iure quos deserunt.</p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="collapsibleClose">
+            <p>Bagaimana jika terjadi kecelakaan</p>
+            <img src="./icon/fi_chevron-down.svg" alt="icon">
+          </div>
+          <div class="collapsibleOpen">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quam cumque quia aliquid fugiat deleniti officia nisi perspiciatis nemo corporis impedit, voluptas voluptatibus minima aperiam quos? Quaerat iure quos deserunt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let coll = document.getElementsByClassName("collapsibleClose");
+    let i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        let collapsibleOpen = this.nextElementSibling;
+        if (collapsibleOpen.style.display === "block") {
+          collapsibleOpen.style.display = "none";
+        } else {
+          collapsibleOpen.style.display = "block";
+        }
+      });
+    }
+    </script>
 </body>
 </html>

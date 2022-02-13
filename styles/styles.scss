@@ -170,3 +170,77 @@ body{
     }
   }
 }
+
+.faq{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+
+  .main{
+    width: 1168px;
+    display: flex;
+    justify-content: space-between;
+
+    .left{
+      .title{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        margin: 0 0 16px;
+      }
+  
+      .lead{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+      }
+    }
+  
+    .right{
+      .content{
+        margin-bottom: 16px;
+  
+        .collapsibleClose{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 668px;
+          height: 56px;
+          padding: 18px 25px 18px 24px;
+          border: 1px solid #D4D4D4;
+          border-radius: 4px;
+  
+          &:hover{
+            cursor: pointer;
+          }
+  
+          p{
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 20px;
+          }
+          
+          img{
+            height: 24px;
+            width: 24px;
+          }
+        }
+  
+        .collapsibleOpen{
+          width: 668px;
+          padding: 18px 25px 18px 24px;
+          border: 1px solid #D4D4D4;
+          border-radius: 4px;
+          display: none;
+          overflow: hidden;
+  
+          p{
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+}
