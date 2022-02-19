@@ -315,3 +315,71 @@ body{
     }
   }
 }
+
+.footer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+
+  .main{
+    width: 1141px;
+    display: flex;
+    justify-content: space-between;
+    // background-color: red;
+
+    .text{
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 20px;
+      text-decoration: none;
+      color: black;
+      margin: 0 0 16px;
+    }
+
+    .address{
+      max-width: 268px;
+      width: 268px;
+    }
+
+    .navigation{
+      display: flex;
+      flex-direction: column;
+      min-width: 79px;
+
+      .text{
+        font-weight: 400;
+      }
+    }
+
+    .sosmed{
+      .icons{
+        display: flex;
+
+        .icon{
+          height: 32px;
+          width: 32px;
+          padding: 7.67px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: $PrimaryDarkBlue04;
+          margin-right: 16px;
+
+          img{
+            height: 24px;
+            width: 24px;
+          }
+        }
+      }
+    }
+
+    .copyright{
+      .box{
+        width: 100px;
+        height: 34px;
+        background-color: $PrimaryDarkBlue04;
+      }
+    }
+  }
+}

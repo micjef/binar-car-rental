@@ -354,4 +354,88 @@ body {
   font-weight: 300;
   line-height: 20px;
 }
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 100px;
+}
+
+.footer .main {
+  width: 1141px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .main .text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-decoration: none;
+  color: black;
+  margin: 0 0 16px;
+}
+
+.footer .main .address {
+  max-width: 268px;
+  width: 268px;
+}
+
+.footer .main .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 79px;
+}
+
+.footer .main .navigation .text {
+  font-weight: 400;
+}
+
+.footer .main .sosmed .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .main .sosmed .icons .icon {
+  height: 32px;
+  width: 32px;
+  padding: 7.67px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0D28A6;
+  margin-right: 16px;
+}
+
+.footer .main .sosmed .icons .icon img {
+  height: 24px;
+  width: 24px;
+}
+
+.footer .main .copyright .box {
+  width: 100px;
+  height: 34px;
+  background-color: #0D28A6;
+}
 /*# sourceMappingURL=styles.css.map */
