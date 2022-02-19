@@ -1,6 +1,9 @@
+$PrimaryDarkBlue01: #CFD4ED;
 $PrimaryDarkBlue04: #0D28A6;
+$PrimaryLimeGreen03: #92D094;
 $PrimaryLimeGreen04: #5CB85F;
 $AllertWarning: #F9CC00;
+$AllertDanger: #FA2C5A;
 
 body{
   margin: 0;
@@ -119,6 +122,101 @@ body{
         position: relative;
         margin-top: 97px;
         height: 407px;
+      }
+    }
+  }
+}
+
+.ourService{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+  .main{
+    width: 1027px;
+    display: flex;
+    justify-content: space-between;
+
+    .left{
+      width: 459px;
+      position: relative;
+      margin-top: 4px;
+      margin-right: 100px;
+
+      img{
+        width: 374px;
+        position: absolute;
+        left: 99px;
+      }
+
+      .ellipse1{
+        height: 133px;
+        width: 133px;
+        background-color: $PrimaryLimeGreen03;
+        border-radius: 50%;
+        position: absolute;
+        top: 1px;
+      }
+      
+      .ellipse2{
+        height: 25px;
+        width: 25px;
+        background-color: $AllertDanger;
+        border-radius: 50%;
+        position: absolute;
+        top: 43px;
+        left: 383px;
+      }
+
+      .ellipse3{
+        height: 25px;
+        width: 25px;
+        background-color: $AllertWarning;
+        border-radius: 50%;
+        position: absolute;
+        top: 336px;
+        left: 60px;
+      }
+    }
+
+    .right{
+      max-width: 468px;
+      margin-top: 40px;
+
+      .title{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        margin: 0;
+      }
+
+      .lead{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        margin: 24px 0 16px;
+      }
+
+      .list{
+        display: flex;
+        align-items: center;
+
+        .icon{
+          width: 24px;
+          height: 24px;
+          margin-right: 16px;
+          border-radius: 50%;
+          background-color: $PrimaryDarkBlue01;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .text{
+          font-size: 14px;
+          font-weight: 300;
+          line-height: 20px;
+        }
       }
     }
   }
@@ -325,7 +423,6 @@ body{
     width: 1141px;
     display: flex;
     justify-content: space-between;
-    // background-color: red;
 
     .text{
       font-size: 14px;
