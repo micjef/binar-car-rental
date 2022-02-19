@@ -1,5 +1,6 @@
 $PrimaryDarkBlue04: #0D28A6;
 $PrimaryLimeGreen04: #5CB85F;
+$AllertWarning: #F9CC00;
 
 body{
   margin: 0;
@@ -118,6 +119,76 @@ body{
         position: relative;
         margin-top: 97px;
         height: 407px;
+      }
+    }
+  }
+}
+
+.whyUs{
+  display: flex;
+  justify-content: center;
+  margin-top: 138px;
+  
+  .main{
+    width: 1168px;
+
+    .title{
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 36px;
+      margin: 0;
+    }
+
+    .lead{
+      margin: 16px 0 40px;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 20px;
+    }
+
+    .content{
+      display: flex;
+      justify-content: space-between;
+
+      .card{
+        border: 1px solid #D0D0D0;
+        border-radius: 8px;
+        width: 268px;
+        max-width: 268px;
+        height: 196px;
+        padding: 24px;
+        margin-right: 32px;
+
+        .icon{
+          height: 32px;
+          width: 32px;
+          padding: 7.67px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img{
+            height: 24px;
+            width: 24px;
+          }
+        }
+
+        .title{
+          font-size: 16px;
+          font-weight: 700;
+          margin: 16px 0;
+          line-height: 24px;
+        }
+
+        .lead{
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 20px;
+          margin: 0;
+          width: 220px;
+          height: 60px;
+        }
       }
     }
   }

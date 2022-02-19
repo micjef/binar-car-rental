@@ -128,6 +128,90 @@ body {
   height: 407px;
 }
 
+.whyUs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 138px;
+}
+
+.whyUs .main {
+  width: 1168px;
+}
+
+.whyUs .main .title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 0;
+}
+
+.whyUs .main .lead {
+  margin: 16px 0 40px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.whyUs .main .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.whyUs .main .content .card {
+  border: 1px solid #D0D0D0;
+  border-radius: 8px;
+  width: 268px;
+  max-width: 268px;
+  height: 196px;
+  padding: 24px;
+  margin-right: 32px;
+}
+
+.whyUs .main .content .card .icon {
+  height: 32px;
+  width: 32px;
+  padding: 7.67px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.whyUs .main .content .card .icon img {
+  height: 24px;
+  width: 24px;
+}
+
+.whyUs .main .content .card .title {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 16px 0;
+  line-height: 24px;
+}
+
+.whyUs .main .content .card .lead {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  width: 220px;
+  height: 60px;
+}
+
 .ctaBanner {
   display: -webkit-box;
   display: -ms-flexbox;
