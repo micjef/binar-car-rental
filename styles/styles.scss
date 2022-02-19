@@ -292,6 +292,122 @@ body{
   }
 }
 
+.testimonial{
+  // display: flex;
+  // justify-content: center;
+  margin-top: 100px;
+
+  .main{
+    max-width: 100vw;
+    overflow: hidden;
+
+    .title{
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 36px;
+      text-align: center;
+      margin: 0 0 16px;
+    }
+
+    .lead{
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 20px;
+      text-align: center;
+      margin: 0 0 40px;
+    }
+
+    .carousel{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+      .carouselMain{
+        display: flex;
+        justify-content: center;
+  
+        .content{
+          max-width: 619px;
+          background-color: #F1F3FF;
+          border-radius: 8px;
+          padding: 69px 32px 69px 46px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: 0 32px;
+  
+          .left{
+            img{
+              height: 80px;
+              width: 80px;
+              margin-right: 46px;
+            }
+          }
+  
+          .right{
+            width: 415px;
+  
+            .stars{
+              img{
+                height: 16px;
+                width: 16px;
+                margin: 0 -3px;
+              }
+            }
+  
+            .text{
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 20px;
+              margin: 8px 0;
+            }
+  
+            .name{
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 20px;
+              margin: 0;
+            }
+          }
+        }
+      }
+
+      .carouselControl{
+        display: flex;
+        margin-top: 24px;
+        width: 88px;
+        justify-content: space-between;
+
+        .left,
+        .right{
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img{
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+          }
+        }
+
+        .left{
+          border: 1px solid #C4C4C4;
+        }
+
+        .right{
+          background-color: $PrimaryLimeGreen04;
+        }
+      }
+
+    }
+  }
+}
+
 .ctaBanner{
   display: flex;
   justify-content: center;
