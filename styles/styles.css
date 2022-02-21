@@ -384,7 +384,18 @@ body {
           justify-content: center;
 }
 
-.testimonial .main .carousel .carouselMain .content {
+.testimonial .main .carousel .carouselMain .carouselItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContent,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight {
   max-width: 619px;
   background-color: #F1F3FF;
   border-radius: 8px;
@@ -401,30 +412,40 @@ body {
   margin: 0 32px;
 }
 
-.testimonial .main .carousel .carouselMain .content .left img {
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContent .left img,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft .left img,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight .left img {
   height: 80px;
   width: 80px;
   margin-right: 46px;
 }
 
-.testimonial .main .carousel .carouselMain .content .right {
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContent .right,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft .right,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight .right {
   width: 415px;
 }
 
-.testimonial .main .carousel .carouselMain .content .right .stars img {
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContent .right .stars img,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft .right .stars img,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight .right .stars img {
   height: 16px;
   width: 16px;
   margin: 0 -3px;
 }
 
-.testimonial .main .carousel .carouselMain .content .right .text {
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContent .right .text,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft .right .text,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight .right .text {
   font-size: 14px;
   font-weight: 300;
   line-height: 20px;
   margin: 8px 0;
 }
 
-.testimonial .main .carousel .carouselMain .content .right .name {
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContent .right .name,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft .right .name,
+.testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight .right .name {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
