@@ -698,22 +698,26 @@ body {
         width: 80vw;
 
         img {
-          width: 250px;
+          width: 60vw;
+          left: 20vw;
         }
 
         .ellipse1 {
-          height: 90px;
-          width: 90px;
+          height: 20vw;
+          width: 20vw;
+          left: 5vw;
         }
 
         .ellipse2 {
-          height: 15px;
-          width: 15px;
+          height: 5vw;
+          width: 5vw;
+          left: 80vw;
         }
 
         .ellipse3 {
-          height: 20px;
-          width: 20px;
+          height: 5vw;
+          width: 5vw;
+          left: 15vw;
         }
       }
 
@@ -740,6 +744,7 @@ body {
         .card {
           margin-right: 0px;
           margin-bottom: 32px;
+          max-width: 70vw;
         }
       }
     }

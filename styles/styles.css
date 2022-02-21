@@ -814,19 +814,23 @@ body {
     width: 80vw;
   }
   .ourService .main .left img {
-    width: 250px;
+    width: 60vw;
+    left: 20vw;
   }
   .ourService .main .left .ellipse1 {
-    height: 90px;
-    width: 90px;
+    height: 20vw;
+    width: 20vw;
+    left: 5vw;
   }
   .ourService .main .left .ellipse2 {
-    height: 15px;
-    width: 15px;
+    height: 5vw;
+    width: 5vw;
+    left: 80vw;
   }
   .ourService .main .left .ellipse3 {
-    height: 20px;
-    width: 20px;
+    height: 5vw;
+    width: 5vw;
+    left: 15vw;
   }
   .ourService .main .right {
     max-width: 80vw;
@@ -855,6 +859,7 @@ body {
   .whyUs .main .content .card {
     margin-right: 0px;
     margin-bottom: 32px;
+    max-width: 70vw;
   }
   .testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight,
   .testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft {
