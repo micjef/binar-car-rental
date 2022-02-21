@@ -1,21 +1,21 @@
-$PrimaryDarkBlue01: #CFD4ED;
-$PrimaryDarkBlue04: #0D28A6;
-$PrimaryLimeGreen03: #92D094;
-$PrimaryLimeGreen04: #5CB85F;
-$AllertWarning: #F9CC00;
-$AllertDanger: #FA2C5A;
+$PrimaryDarkBlue01: #cfd4ed;
+$PrimaryDarkBlue04: #0d28a6;
+$PrimaryLimeGreen03: #92d094;
+$PrimaryLimeGreen04: #5cb85f;
+$AllertWarning: #f9cc00;
+$AllertDanger: #fa2c5a;
 
-body{
+body {
   margin: 0;
   padding: 0;
   font-family: Helvetica, sans-serif;
 }
 
-.header{
+.header {
   display: flex;
   justify-content: center;
 
-  .main{
+  .main {
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -23,15 +23,15 @@ body{
     padding: 25px 0 0;
     z-index: 10;
     height: 60px;
-  
-    .left{
+
+    .left {
       height: 34px;
       width: 100px;
       background-color: $PrimaryDarkBlue04;
     }
-  
-    .right{
-      .nav{
+
+    .right {
+      .nav {
         margin-left: 32px;
         text-decoration: none;
         color: #000000;
@@ -39,8 +39,8 @@ body{
         font-weight: 400;
         line-height: 20px;
       }
-  
-      .register{
+
+      .register {
         background-color: $PrimaryLimeGreen04;
         width: 81px;
         height: 36px;
@@ -49,20 +49,19 @@ body{
         color: #ffffff;
       }
     }
-
   }
 }
 
-.heroSection{
-  background-color: #F1F3FF;
+.heroSection {
+  background-color: #f1f3ff;
   display: flex;
   justify-content: space-between;
   height: 500px;
 
-  .left{
+  .left {
     padding-left: 136px;
 
-    .title{
+    .title {
       font-size: 36px;
       font-weight: 700;
       width: 568px;
@@ -71,7 +70,7 @@ body{
       margin-bottom: 0;
     }
 
-    .lead{
+    .lead {
       font-size: 14px;
       font-weight: 400;
       width: 468px;
@@ -80,7 +79,7 @@ body{
       line-height: 20px;
     }
 
-    button{
+    button {
       height: 36px;
       width: 140px;
       background-color: $PrimaryLimeGreen04;
@@ -94,21 +93,21 @@ body{
     }
   }
 
-  .right{
+  .right {
     max-width: 704px;
     height: 500px;
 
-    .bg{
+    .bg {
       background-color: $PrimaryDarkBlue04;
       height: 243px;
       width: 100%;
     }
 
-    .img{
+    .img {
       position: relative;
 
-      &::before{
-        content: '';
+      &::before {
+        content: "";
         background-color: $PrimaryDarkBlue04;
         height: 243px;
         width: 100%;
@@ -119,7 +118,7 @@ body{
         border-radius: 60px 0 0 0;
       }
 
-      img{
+      img {
         z-index: 2;
         position: relative;
         margin-top: 97px;
@@ -129,29 +128,29 @@ body{
   }
 }
 
-.ourService{
+.ourService {
   display: flex;
   justify-content: center;
   margin-top: 100px;
 
-  .main{
+  .main {
     width: 1027px;
     display: flex;
     justify-content: space-between;
 
-    .left{
+    .left {
       width: 459px;
       position: relative;
       margin-top: 4px;
       margin-right: 100px;
 
-      img{
+      img {
         width: 374px;
         position: absolute;
         left: 99px;
       }
 
-      .ellipse1{
+      .ellipse1 {
         height: 133px;
         width: 133px;
         background-color: $PrimaryLimeGreen03;
@@ -159,8 +158,8 @@ body{
         position: absolute;
         top: 1px;
       }
-      
-      .ellipse2{
+
+      .ellipse2 {
         height: 25px;
         width: 25px;
         background-color: $AllertDanger;
@@ -170,7 +169,7 @@ body{
         left: 383px;
       }
 
-      .ellipse3{
+      .ellipse3 {
         height: 25px;
         width: 25px;
         background-color: $AllertWarning;
@@ -181,29 +180,29 @@ body{
       }
     }
 
-    .right{
+    .right {
       max-width: 468px;
       margin-top: 40px;
 
-      .title{
+      .title {
         font-size: 24px;
         font-weight: 700;
         line-height: 36px;
         margin: 0;
       }
 
-      .lead{
+      .lead {
         font-size: 14px;
         font-weight: 300;
         line-height: 20px;
         margin: 24px 0 16px;
       }
 
-      .list{
+      .list {
         display: flex;
         align-items: center;
 
-        .icon{
+        .icon {
           width: 24px;
           height: 24px;
           margin-right: 16px;
@@ -214,7 +213,7 @@ body{
           align-items: center;
         }
 
-        .text{
+        .text {
           font-size: 14px;
           font-weight: 300;
           line-height: 20px;
@@ -224,34 +223,34 @@ body{
   }
 }
 
-.whyUs{
+.whyUs {
   display: flex;
   justify-content: center;
   margin-top: 138px;
-  
-  .main{
+
+  .main {
     width: 1168px;
 
-    .title{
+    .title {
       font-size: 24px;
       font-weight: 700;
       line-height: 36px;
       margin: 0;
     }
 
-    .lead{
+    .lead {
       margin: 16px 0 40px;
       font-size: 14px;
       font-weight: 300;
       line-height: 20px;
     }
 
-    .content{
+    .content {
       display: flex;
       justify-content: space-between;
 
-      .card{
-        border: 1px solid #D0D0D0;
+      .card {
+        border: 1px solid #d0d0d0;
         border-radius: 8px;
         width: 268px;
         max-width: 268px;
@@ -259,7 +258,7 @@ body{
         padding: 24px;
         margin-right: 32px;
 
-        .icon{
+        .icon {
           height: 32px;
           width: 32px;
           padding: 7.67px;
@@ -268,20 +267,20 @@ body{
           justify-content: center;
           align-items: center;
 
-          img{
+          img {
             height: 24px;
             width: 24px;
           }
         }
 
-        .title{
+        .title {
           font-size: 16px;
           font-weight: 700;
           margin: 16px 0;
           line-height: 24px;
         }
 
-        .lead{
+        .lead {
           font-weight: 300;
           font-size: 14px;
           line-height: 20px;
@@ -294,16 +293,16 @@ body{
   }
 }
 
-.testimonial{
+.testimonial {
   display: flex;
   justify-content: center;
   margin-top: 100px;
 
-  .main{
+  .main {
     max-width: 100vw;
     overflow: hidden;
 
-    .title{
+    .title {
       font-size: 24px;
       font-weight: 700;
       line-height: 36px;
@@ -311,7 +310,7 @@ body{
       margin: 0 0 16px;
     }
 
-    .lead{
+    .lead {
       font-size: 14px;
       font-weight: 300;
       line-height: 20px;
@@ -319,59 +318,59 @@ body{
       margin: 0 0 40px;
     }
 
-    .carousel{
+    .carousel {
       display: flex;
       justify-content: center;
       flex-direction: column;
       align-items: center;
 
-      .carouselMain{
+      .carouselMain {
         display: flex;
         justify-content: center;
 
-        .carouselItem{
+        .carouselItem {
           display: flex;
           justify-content: center;
 
           .carouselContent,
           .carouselContentLeft,
-          .carouselContentRight{
+          .carouselContentRight {
             max-width: 619px;
-            background-color: #F1F3FF;
+            background-color: #f1f3ff;
             border-radius: 8px;
             padding: 69px 32px 69px 46px;
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin: 0 32px;
-    
-            .left{
-              img{
+
+            .left {
+              img {
                 height: 80px;
                 width: 80px;
                 margin-right: 46px;
               }
             }
-    
-            .right{
+
+            .right {
               width: 415px;
-    
-              .stars{
-                img{
+
+              .stars {
+                img {
                   height: 16px;
                   width: 16px;
                   margin: 0 -3px;
                 }
               }
-    
-              .text{
+
+              .text {
                 font-size: 14px;
                 font-weight: 300;
                 line-height: 20px;
                 margin: 8px 0;
               }
-    
-              .name{
+
+              .name {
                 font-size: 14px;
                 font-weight: 400;
                 line-height: 20px;
@@ -382,14 +381,14 @@ body{
         }
       }
 
-      .carouselControl{
+      .carouselControl {
         display: flex;
         margin-top: 24px;
         width: 88px;
         justify-content: space-between;
 
         .left,
-        .right{
+        .right {
           width: 32px;
           height: 32px;
           border-radius: 50%;
@@ -397,32 +396,31 @@ body{
           align-items: center;
           justify-content: center;
 
-          img{
+          img {
             border-radius: 50%;
             width: 20px;
             height: 20px;
           }
         }
 
-        .left{
-          border: 1px solid #C4C4C4;
+        .left {
+          border: 1px solid #c4c4c4;
         }
 
-        .right{
+        .right {
           background-color: $PrimaryLimeGreen04;
         }
       }
-
     }
   }
 }
 
-.ctaBanner{
+.ctaBanner {
   display: flex;
   justify-content: center;
   margin: 156px 0 100px;
 
-  .content{
+  .content {
     background-color: $PrimaryDarkBlue04;
     width: 1168px;
     height: 326px;
@@ -431,8 +429,8 @@ body{
     flex-direction: column;
     align-items: center;
     border-radius: 13px;
-  
-    .title{
+
+    .title {
       font-size: 36px;
       font-weight: 700;
       width: 613px;
@@ -440,8 +438,8 @@ body{
       margin-top: 64px;
       margin-bottom: 0;
     }
-  
-    .lead{
+
+    .lead {
       font-size: 14px;
       font-weight: 400;
       width: 468px;
@@ -449,8 +447,8 @@ body{
       text-align: center;
       line-height: 20px;
     }
-  
-    button{
+
+    button {
       height: 36px;
       width: 140px;
       background-color: $PrimaryLimeGreen04;
@@ -465,70 +463,70 @@ body{
   }
 }
 
-.faq{
+.faq {
   display: flex;
   justify-content: center;
   margin-bottom: 150px;
 
-  .main{
+  .main {
     width: 1168px;
     display: flex;
     justify-content: space-between;
 
-    .left{
-      .title{
+    .left {
+      .title {
         font-size: 24px;
         font-weight: 700;
         line-height: 36px;
         margin: 0 0 16px;
       }
-  
-      .lead{
+
+      .lead {
         font-size: 14px;
         font-weight: 300;
         line-height: 20px;
       }
     }
-  
-    .right{
-      .content{
+
+    .right {
+      .content {
         margin-bottom: 16px;
-  
-        .collapsibleClose{
+
+        .collapsibleClose {
           display: flex;
           justify-content: space-between;
           align-items: center;
           width: 668px;
           height: 56px;
           padding: 18px 25px 18px 24px;
-          border: 1px solid #D4D4D4;
+          border: 1px solid #d4d4d4;
           border-radius: 4px;
-  
-          &:hover{
+
+          &:hover {
             cursor: pointer;
           }
-  
-          p{
+
+          p {
             font-size: 14px;
             font-weight: 300;
             line-height: 20px;
           }
-          
-          img{
+
+          img {
             height: 24px;
             width: 24px;
           }
         }
-  
-        .collapsibleOpen{
+
+        .collapsibleOpen {
           width: 668px;
           padding: 18px 25px 18px 24px;
-          border: 1px solid #D4D4D4;
+          border: 1px solid #d4d4d4;
           border-radius: 4px;
           display: none;
           overflow: hidden;
-  
-          p{
+
+          p {
             font-size: 14px;
             font-weight: 300;
             line-height: 20px;
@@ -539,17 +537,17 @@ body{
   }
 }
 
-.footer{
+.footer {
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
 
-  .main{
+  .main {
     width: 1141px;
     display: flex;
     justify-content: space-between;
 
-    .text{
+    .text {
       font-size: 14px;
       font-weight: 300;
       line-height: 20px;
@@ -558,26 +556,26 @@ body{
       margin: 0 0 16px;
     }
 
-    .address{
+    .address {
       max-width: 268px;
       width: 268px;
     }
 
-    .navigation{
+    .navigation {
       display: flex;
       flex-direction: column;
       min-width: 79px;
 
-      .text{
+      .text {
         font-weight: 400;
       }
     }
 
-    .sosmed{
-      .icons{
+    .sosmed {
+      .icons {
         display: flex;
 
-        .icon{
+        .icon {
           height: 32px;
           width: 32px;
           padding: 7.67px;
@@ -588,7 +586,7 @@ body{
           background-color: $PrimaryDarkBlue04;
           margin-right: 16px;
 
-          img{
+          img {
             height: 24px;
             width: 24px;
           }
@@ -596,11 +594,276 @@ body{
       }
     }
 
-    .copyright{
-      .box{
+    .copyright {
+      .box {
         width: 100px;
         height: 34px;
         background-color: $PrimaryDarkBlue04;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    display: none;
+    justify-content: center;
+
+    .main {
+      display: flex;
+      justify-content: space-between;
+      position: fixed;
+      width: 1168px;
+      padding: 25px 0 0;
+      z-index: 10;
+      height: 60px;
+
+      .left {
+        height: 34px;
+        width: 100px;
+        background-color: $PrimaryDarkBlue04;
+      }
+
+      .right {
+        .nav {
+          margin-left: 32px;
+          text-decoration: none;
+          color: #000000;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+        }
+
+        .register {
+          background-color: $PrimaryLimeGreen04;
+          width: 81px;
+          height: 36px;
+          border-radius: 2px;
+          padding: 8px 12px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  .heroSection {
+    width: 100vw;
+    height: 100%;
+    flex-direction: column;
+
+    .left {
+      padding-left: 30px;
+
+      .title {
+        width: 80vw;
+        margin-top: 50px;
+      }
+
+      .lead {
+        width: 80vw;
+      }
+    }
+
+    .right {
+      max-width: 100vw;
+      height: 300px;
+
+      .img {
+        position: relative;
+
+        &::before {
+          height: 150px;
+          width: 100%;
+          bottom: 50px;
+        }
+
+        img {
+          margin-top: 0px;
+          object-fit: contain;
+          width: 100vw;
+        }
+      }
+    }
+  }
+
+  .ourService {
+    .main {
+      width: 80vw;
+      align-items: center;
+      flex-direction: column;
+
+      .left {
+        margin-top: 0px;
+        margin-right: 50px;
+        width: 80vw;
+
+        img {
+          width: 250px;
+        }
+
+        .ellipse1 {
+          height: 90px;
+          width: 90px;
+        }
+
+        .ellipse2 {
+          height: 15px;
+          width: 15px;
+        }
+
+        .ellipse3 {
+          height: 20px;
+          width: 20px;
+        }
+      }
+
+      .right {
+        max-width: 80vw;
+        margin-top: 400px;
+
+        .list {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  .whyUs {
+    margin-top: 100px;
+
+    .main {
+      width: 80vw;
+      .content {
+        flex-direction: column;
+
+        .card {
+          margin-right: 0px;
+          margin-bottom: 32px;
+        }
+      }
+    }
+  }
+
+  .testimonial {
+    .main {
+      .carousel {
+        .carouselMain {
+          .carouselItem {
+            .carouselContentRight,
+            .carouselContentLeft{
+              display: none;
+            }
+
+            .carouselContent{
+              max-width: 70vw;
+              margin: 0;
+            }
+          }
+        }
+
+        .carouselControl {
+          display: flex;
+          margin-top: 24px;
+          width: 88px;
+          justify-content: space-between;
+
+          .left,
+          .right {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+              border-radius: 50%;
+              width: 20px;
+              height: 20px;
+            }
+          }
+
+          .left {
+            border: 1px solid #c4c4c4;
+          }
+
+          .right {
+            background-color: $PrimaryLimeGreen04;
+          }
+        }
+      }
+    }
+  }
+
+  .ctaBanner {
+    margin: 100px 0;
+
+    .content {
+      width: 80vw;
+      height: 100%;
+
+      .title {
+        width: 70vw;
+      }
+
+      .lead {
+        width: 70vw;
+        text-align: justify;
+      }
+
+      button {
+        height: 36px;
+        width: 140px;
+        padding: 8px 12px;
+        margin-bottom: 64px;
+      }
+    }
+  }
+
+  .faq {
+    margin-bottom: 150px;
+
+    .main {
+      width: 80vw;
+      flex-direction: column;
+
+      .right {
+        .content {
+          margin-bottom: 16px;
+
+          .collapsibleClose {
+            width: 70vw;
+
+            p{
+              max-width: 60vw;
+            }
+          }
+
+          .collapsibleOpen {
+            width: 70vw;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    .main {
+      width: 80vw;
+      flex-direction: column;
+
+      .address {
+        max-width: 80vw;
+        width: 80vw;
+      }
+
+      .navigation {
+        margin: 30px 0;
+      }
+
+      .copyright {
+        margin-top: 30px;
       }
     }
   }

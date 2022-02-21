@@ -353,7 +353,7 @@
             <a class="left" onclick="plusSlides(-1)" id="controlPrev">
               <img src="./icon/fi_chevron-left.svg" alt="left" />
             </a>
-            <a class="right" onclick="plusSlides(+1)" id="controlNext">
+            <a class="right" onclick="plusSlides(1)" id="controlNext">
               <img src="./icon/fi_chevron-right.svg" alt="right" />
             </a>
           </div>
@@ -524,11 +524,16 @@
         SlideShow((slidePosition += n));
       }
 
-      //  images controls
+      //  card controls
       function currentSlide(n) {
         SlideShow((slidePosition = n));
       }
 
+      setTimeout(function () {
+        SlideShow(slidePosition);
+      }, 10000);
+      
+      // show slide
       function SlideShow(n) {
         let i;
         let slidesLeft = document.getElementsByClassName("carouselContentLeft");

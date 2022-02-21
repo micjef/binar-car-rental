@@ -30,7 +30,7 @@ body {
 .header .main .left {
   height: 34px;
   width: 100px;
-  background-color: #0D28A6;
+  background-color: #0d28a6;
 }
 
 .header .main .right .nav {
@@ -43,7 +43,7 @@ body {
 }
 
 .header .main .right .register {
-  background-color: #5CB85F;
+  background-color: #5cb85f;
   width: 81px;
   height: 36px;
   border-radius: 2px;
@@ -52,7 +52,7 @@ body {
 }
 
 .heroSection {
-  background-color: #F1F3FF;
+  background-color: #f1f3ff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,7 +87,7 @@ body {
 .heroSection .left button {
   height: 36px;
   width: 140px;
-  background-color: #5CB85F;
+  background-color: #5cb85f;
   border: none;
   border-radius: 2px;
   padding: 8px 12px;
@@ -103,7 +103,7 @@ body {
 }
 
 .heroSection .right .bg {
-  background-color: #0D28A6;
+  background-color: #0d28a6;
   height: 243px;
   width: 100%;
 }
@@ -113,8 +113,8 @@ body {
 }
 
 .heroSection .right .img::before {
-  content: '';
-  background-color: #0D28A6;
+  content: "";
+  background-color: #0d28a6;
   height: 243px;
   width: 100%;
   position: absolute;
@@ -167,7 +167,7 @@ body {
 .ourService .main .left .ellipse1 {
   height: 133px;
   width: 133px;
-  background-color: #92D094;
+  background-color: #92d094;
   border-radius: 50%;
   position: absolute;
   top: 1px;
@@ -176,7 +176,7 @@ body {
 .ourService .main .left .ellipse2 {
   height: 25px;
   width: 25px;
-  background-color: #FA2C5A;
+  background-color: #fa2c5a;
   border-radius: 50%;
   position: absolute;
   top: 43px;
@@ -186,7 +186,7 @@ body {
 .ourService .main .left .ellipse3 {
   height: 25px;
   width: 25px;
-  background-color: #F9CC00;
+  background-color: #f9cc00;
   border-radius: 50%;
   position: absolute;
   top: 336px;
@@ -226,7 +226,7 @@ body {
   height: 24px;
   margin-right: 16px;
   border-radius: 50%;
-  background-color: #CFD4ED;
+  background-color: #cfd4ed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -282,7 +282,7 @@ body {
 }
 
 .whyUs .main .content .card {
-  border: 1px solid #D0D0D0;
+  border: 1px solid #d0d0d0;
   border-radius: 8px;
   width: 268px;
   max-width: 268px;
@@ -397,7 +397,7 @@ body {
 .testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft,
 .testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight {
   max-width: 619px;
-  background-color: #F1F3FF;
+  background-color: #f1f3ff;
   border-radius: 8px;
   padding: 69px 32px 69px 46px;
   display: -webkit-box;
@@ -487,11 +487,11 @@ body {
 }
 
 .testimonial .main .carousel .carouselControl .left {
-  border: 1px solid #C4C4C4;
+  border: 1px solid #c4c4c4;
 }
 
 .testimonial .main .carousel .carouselControl .right {
-  background-color: #5CB85F;
+  background-color: #5cb85f;
 }
 
 .ctaBanner {
@@ -505,7 +505,7 @@ body {
 }
 
 .ctaBanner .content {
-  background-color: #0D28A6;
+  background-color: #0d28a6;
   width: 1168px;
   height: 326px;
   color: #ffffff;
@@ -543,7 +543,7 @@ body {
 .ctaBanner .content button {
   height: 36px;
   width: 140px;
-  background-color: #5CB85F;
+  background-color: #5cb85f;
   border: none;
   border-radius: 2px;
   padding: 8px 12px;
@@ -603,7 +603,7 @@ body {
   width: 668px;
   height: 56px;
   padding: 18px 25px 18px 24px;
-  border: 1px solid #D4D4D4;
+  border: 1px solid #d4d4d4;
   border-radius: 4px;
 }
 
@@ -625,7 +625,7 @@ body {
 .faq .main .right .content .collapsibleOpen {
   width: 668px;
   padding: 18px 25px 18px 24px;
-  border: 1px solid #D4D4D4;
+  border: 1px solid #d4d4d4;
   border-radius: 4px;
   display: none;
   overflow: hidden;
@@ -706,7 +706,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #0D28A6;
+  background-color: #0d28a6;
   margin-right: 16px;
 }
 
@@ -718,6 +718,247 @@ body {
 .footer .main .copyright .box {
   width: 100px;
   height: 34px;
-  background-color: #0D28A6;
+  background-color: #0d28a6;
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: fixed;
+    width: 1168px;
+    padding: 25px 0 0;
+    z-index: 10;
+    height: 60px;
+  }
+  .header .main .left {
+    height: 34px;
+    width: 100px;
+    background-color: #0d28a6;
+  }
+  .header .main .right .nav {
+    margin-left: 32px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .header .main .right .register {
+    background-color: #5cb85f;
+    width: 81px;
+    height: 36px;
+    border-radius: 2px;
+    padding: 8px 12px;
+    color: #ffffff;
+  }
+  .heroSection {
+    width: 100vw;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .heroSection .left {
+    padding-left: 30px;
+  }
+  .heroSection .left .title {
+    width: 80vw;
+    margin-top: 50px;
+  }
+  .heroSection .left .lead {
+    width: 80vw;
+  }
+  .heroSection .right {
+    max-width: 100vw;
+    height: 300px;
+  }
+  .heroSection .right .img {
+    position: relative;
+  }
+  .heroSection .right .img::before {
+    height: 150px;
+    width: 100%;
+    bottom: 50px;
+  }
+  .heroSection .right .img img {
+    margin-top: 0px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100vw;
+  }
+  .ourService .main {
+    width: 80vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ourService .main .left {
+    margin-top: 0px;
+    margin-right: 50px;
+    width: 80vw;
+  }
+  .ourService .main .left img {
+    width: 250px;
+  }
+  .ourService .main .left .ellipse1 {
+    height: 90px;
+    width: 90px;
+  }
+  .ourService .main .left .ellipse2 {
+    height: 15px;
+    width: 15px;
+  }
+  .ourService .main .left .ellipse3 {
+    height: 20px;
+    width: 20px;
+  }
+  .ourService .main .right {
+    max-width: 80vw;
+    margin-top: 400px;
+  }
+  .ourService .main .right .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .whyUs {
+    margin-top: 100px;
+  }
+  .whyUs .main {
+    width: 80vw;
+  }
+  .whyUs .main .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .whyUs .main .content .card {
+    margin-right: 0px;
+    margin-bottom: 32px;
+  }
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContentRight,
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContentLeft {
+    display: none;
+  }
+  .testimonial .main .carousel .carouselMain .carouselItem .carouselContent {
+    max-width: 70vw;
+    margin: 0;
+  }
+  .testimonial .main .carousel .carouselControl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 24px;
+    width: 88px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .testimonial .main .carousel .carouselControl .left,
+  .testimonial .main .carousel .carouselControl .right {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .testimonial .main .carousel .carouselControl .left img,
+  .testimonial .main .carousel .carouselControl .right img {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  .testimonial .main .carousel .carouselControl .left {
+    border: 1px solid #c4c4c4;
+  }
+  .testimonial .main .carousel .carouselControl .right {
+    background-color: #5cb85f;
+  }
+  .ctaBanner {
+    margin: 100px 0;
+  }
+  .ctaBanner .content {
+    width: 80vw;
+    height: 100%;
+  }
+  .ctaBanner .content .title {
+    width: 70vw;
+  }
+  .ctaBanner .content .lead {
+    width: 70vw;
+    text-align: justify;
+  }
+  .ctaBanner .content button {
+    height: 36px;
+    width: 140px;
+    padding: 8px 12px;
+    margin-bottom: 64px;
+  }
+  .faq {
+    margin-bottom: 150px;
+  }
+  .faq .main {
+    width: 80vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .faq .main .right .content {
+    margin-bottom: 16px;
+  }
+  .faq .main .right .content .collapsibleClose {
+    width: 70vw;
+  }
+  .faq .main .right .content .collapsibleClose p {
+    max-width: 60vw;
+  }
+  .faq .main .right .content .collapsibleOpen {
+    width: 70vw;
+  }
+  .footer .main {
+    width: 80vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .main .address {
+    max-width: 80vw;
+    width: 80vw;
+  }
+  .footer .main .navigation {
+    margin: 30px 0;
+  }
+  .footer .main .copyright {
+    margin-top: 30px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
