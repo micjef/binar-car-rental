@@ -9,15 +9,20 @@
   </head>
   <body>
     <!--header-->
-    <div class="header">
+    <div class="navbar">
       <div class="main">
-        <div class="left"></div>
-        <div class="right">
-          <a href="#ourService" class="nav">Our Services</a>
-          <a href="#whyUs" class="nav">Why Us</a>
-          <a href="#testimonial" class="nav">Testimonial</a>
-          <a href="#faq" class="nav">FAQ</a>
-          <a href="" class="nav register">Register</a>
+        <div class="logo"></div>
+        <ul class="nav">
+          <li class="navLink"><a href="#ourService">Our Services</a></li>
+          <li class="navLink"><a href="#whyUs">Why Us</a></li>
+          <li class="navLink"><a href="#testimonial">Testimonial</a></li>
+          <li class="navLink"><a href="#faq">FAQ</a></li>
+          <li class="navLink"><a href="" class="register">Register</a></li>
+        </ul>
+        <div class="burger">
+          <i>
+            <img src="./icon/menu_black_24dp.svg" alt="menu open">
+          </i>
         </div>
       </div>
     </div>
@@ -501,6 +506,23 @@
     </div>
 
     <script>
+      // Selection of HTML objects
+      const burger = document.querySelector('.burger i');
+      const nav = document.querySelector('.nav');
+
+      // Defining a function
+      function toggleNav() {
+          burger.classList.toggle('fa-bars');
+          burger.classList.toggle('fa-times');
+          nav.classList.toggle('nav-active');
+      }
+
+      // Calling the function after click event occurs
+      burger.addEventListener('click', function() {
+          toggleNav();
+      });
+
+      //collapsible
       let coll = document.getElementsByClassName("collapsibleClose");
       let i;
 
