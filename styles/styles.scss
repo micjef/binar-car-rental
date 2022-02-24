@@ -16,20 +16,20 @@ body {
 .navbar {
   display: flex;
   justify-content: center;
-  position: fixed;
-  z-index: 20;
-  padding-left: 11.5vw;
+  // position: fixed;
+  // z-index: 20;
+  // padding: 0 11.5vw;
 
   .main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1168px;
+    width: 81.11vw;
     padding: 25px 0 0;
     z-index: 10;
     height: 60px;
-    // position: fixed;
-    // top: 0;
+    position: fixed;
+    // background-color: red;
 
     .logo {
       height: 34px;
@@ -73,76 +73,83 @@ body {
 }
 
 .heroSection {
-  background-color: #f1f3ff;
   display: flex;
-  justify-content: space-between;
-  height: 500px;
+  justify-content: center;
 
-  .left {
-    padding-left: 136px;
-
-    .title {
-      font-size: 36px;
-      font-weight: 700;
-      width: 568px;
-      line-height: 54px;
-      margin-top: 177px;
-      margin-bottom: 0;
-    }
-
-    .lead {
-      font-size: 14px;
-      font-weight: 400;
-      width: 468px;
-      margin: 16px 0 24px;
-      text-align: justify;
-      line-height: 20px;
-    }
-
-    button {
-      height: 36px;
-      width: 140px;
-      background-color: $PrimaryLimeGreen04;
-      border: none;
-      border-radius: 2px;
-      padding: 8px 12px;
-      font-size: 14px;
-      font-weight: 700;
-      color: #ffffff;
-      line-height: 20px;
-    }
-  }
-
-  .right {
-    max-width: 704px;
+  .main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f3ff;
     height: 500px;
+    width: 100vw;
 
-    .bg {
-      background-color: $PrimaryDarkBlue04;
-      height: 243px;
-      width: 100%;
-    }
-
-    .img {
-      position: relative;
-
-      &::before {
-        content: "";
-        background-color: $PrimaryDarkBlue04;
-        height: 243px;
-        width: 100%;
-        position: absolute;
-        display: block;
-        bottom: 0;
-        z-index: 1;
-        border-radius: 60px 0 0 0;
+    .left {
+      padding-left: 9.44vw;
+      width: 51.2vw;
+  
+      .title {
+        font-size: 36px;
+        font-weight: 700;
+        width: 39.44vw;
+        line-height: 54px;
+        margin-top: 12.2916vw;
+        margin-bottom: 0;
       }
-
-      img {
-        z-index: 2;
+  
+      .lead {
+        font-size: 14px;
+        font-weight: 400;
+        width: 32.5vw;
+        margin: 16px 0 24px;
+        text-align: justify;
+        line-height: 20px;
+      }
+  
+      button {
+        height: 36px;
+        width: 140px;
+        background-color: $PrimaryLimeGreen04;
+        border: none;
+        border-radius: 2px;
+        padding: 8px 12px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #ffffff;
+        line-height: 20px;
+      }
+    }
+  
+    .right {
+      width: 48.88vw;
+      height: 34.72vw;
+  
+      .bg {
+        background-color: $PrimaryDarkBlue04;
+        height: 16.875vw;
+        width: 100%;
+      }
+  
+      .img {
         position: relative;
-        margin-top: 97px;
-        height: 407px;
+  
+        &::before {
+          content: "";
+          background-color: $PrimaryDarkBlue04;
+          height: 16.875vw;
+          width: 100%;
+          position: absolute;
+          display: block;
+          bottom: 0;
+          z-index: 1;
+          border-radius: 60px 0 0 0;
+        }
+  
+        img {
+          z-index: 2;
+          position: relative;
+          margin-top: calc(6.736vw + 4px);
+          width: 100%;
+        }
       }
     }
   }
@@ -154,25 +161,25 @@ body {
   margin-top: 100px;
 
   .main {
-    width: 1027px;
+    width: 71.3194vw;
     display: flex;
     justify-content: space-between;
 
     .left {
-      width: 459px;
+      width: 31.875vw;
       position: relative;
       margin-top: 4px;
       margin-right: 100px;
 
       img {
-        width: 374px;
+        width: 25.972vw;
         position: absolute;
-        left: 99px;
+        left: 6.875vw;
       }
 
       .ellipse1 {
-        height: 133px;
-        width: 133px;
+        height: 9.2361vw;
+        width: 9.2361vw;
         background-color: $PrimaryLimeGreen03;
         border-radius: 50%;
         position: absolute;
@@ -180,28 +187,28 @@ body {
       }
 
       .ellipse2 {
-        height: 25px;
-        width: 25px;
+        height: 1.7361vw;
+        width: 1.7361vw;
         background-color: $AllertDanger;
         border-radius: 50%;
         position: absolute;
-        top: 43px;
-        left: 383px;
+        top: 2.9861vw;
+        left: 26.5972vw;
       }
 
       .ellipse3 {
-        height: 25px;
-        width: 25px;
+        height: 1.7361vw;
+        width: 1.7361vw;
         background-color: $AllertWarning;
         border-radius: 50%;
         position: absolute;
-        top: 336px;
-        left: 60px;
+        top: 23.33vw;
+        left: 4.16vw;
       }
     }
 
     .right {
-      max-width: 468px;
+      max-width: 32.5vw;
       margin-top: 40px;
 
       .title {
@@ -249,7 +256,7 @@ body {
   margin-top: 138px;
 
   .main {
-    width: 1168px;
+    width: 81.11vw;
 
     .title {
       font-size: 24px;
@@ -272,11 +279,10 @@ body {
       .card {
         border: 1px solid #d0d0d0;
         border-radius: 8px;
-        width: 268px;
-        max-width: 268px;
+        width: 18.611vw;
         height: 196px;
         padding: 24px;
-        margin-right: 32px;
+        margin-right: 2.22vw;
 
         .icon {
           height: 32px;
@@ -305,8 +311,8 @@ body {
           font-size: 14px;
           line-height: 20px;
           margin: 0;
-          width: 220px;
-          height: 60px;
+          width: 15.27vw;
+          height: 4.16vw;
         }
       }
     }
@@ -355,25 +361,25 @@ body {
           .carouselContent,
           .carouselContentLeft,
           .carouselContentRight {
-            max-width: 619px;
+            max-width: 42.9861vw;
             background-color: #f1f3ff;
             border-radius: 8px;
-            padding: 69px 32px 69px 46px;
+            padding: 4.7916vw 2.22vw 4.7916vw 3.194vw;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin: 0 32px;
+            margin: 0 2.22vw;
 
             .left {
               img {
-                height: 80px;
-                width: 80px;
-                margin-right: 46px;
+                height: 5.55vw;
+                width: 5.55vw;
+                margin-right: 3.194vw;
               }
             }
 
             .right {
-              width: 415px;
+              width: 28.8194vw;
 
               .stars {
                 img {
@@ -442,7 +448,7 @@ body {
 
   .content {
     background-color: $PrimaryDarkBlue04;
-    width: 1168px;
+    width: 81.11vw;
     height: 326px;
     color: #ffffff;
     display: flex;
@@ -489,11 +495,13 @@ body {
   margin-bottom: 150px;
 
   .main {
-    width: 1168px;
+    width: 81.11vw;
     display: flex;
     justify-content: space-between;
 
     .left {
+      max-width: 25.55vw;
+
       .title {
         font-size: 24px;
         font-weight: 700;
@@ -516,7 +524,7 @@ body {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          width: 668px;
+          width: 46.38vw;
           height: 56px;
           padding: 18px 25px 18px 24px;
           border: 1px solid #d4d4d4;
@@ -563,7 +571,7 @@ body {
   margin-bottom: 100px;
 
   .main {
-    width: 1141px;
+    width: 79.2361vw;
     display: flex;
     justify-content: space-between;
 
@@ -578,7 +586,7 @@ body {
 
     .address {
       max-width: 268px;
-      width: 268px;
+      width: 18.61vw;
     }
 
     .navigation {
@@ -624,6 +632,36 @@ body {
   }
 }
 
+@media screen and (max-width: 1440px) {
+  .heroSection{
+    .main{
+      .right{
+        margin-top: 35px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .heroSection {
+    .main {
+      .right {
+        margin-top: 85px;
+      }
+    }
+  }
+
+  .whyUs {
+    .main {
+      .content {
+        .card {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 500px) {
   .burger {
     display: block;
@@ -644,7 +682,7 @@ body {
     margin: 0;
     background: #ffffff;
     position: absolute;
-    right: -100%;
+    // right: -100%;
     top: 60px;
     width: 100vw;
     height: calc(100% - 60px);
@@ -661,6 +699,9 @@ body {
 
   .nav-active {
     right: 0;
+    height: 100vh;
+    width: 100vw;
+    // left: -100%;
   }
 
   .heroSection {
