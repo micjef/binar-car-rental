@@ -772,6 +772,12 @@ body {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .heroSection .main .right {
+    margin-top: 164px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .burger {
     display: block;
